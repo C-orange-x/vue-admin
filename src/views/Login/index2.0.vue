@@ -38,16 +38,7 @@
 <script>
 import { stripscript, checkEmail, checkPassword, checkCode } from '@/utils/validate'
 export default {
-    name: "login",
-    setup(props,context){
-        //这里面放置data数据、生命周期、自定义函数
-        // context.attrs
-        // context.slots
-        // context.parent
-        // context.root
-        // context.emit
-        // context.refs
-    },
+    name: "Login",
     components: {},
     data(){
         //验证邮箱
